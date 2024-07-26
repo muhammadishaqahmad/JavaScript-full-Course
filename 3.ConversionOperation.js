@@ -78,3 +78,16 @@ console.log("1" + 2);
 
 console.log("1" + 2 + 2);      // output is  122
 console.log(1 + 2 + "2");      // outpput is 32
+
+console.log(true);
+
+console.log(+true);   // 1
+//console.log(true+);   // error
+
+
+console.log(+""); // 0
+
+let gameCounter = 100
+gameCounter++;         // postfix
+++gameCounter;         // prefix
+console.log(gameCounter);
